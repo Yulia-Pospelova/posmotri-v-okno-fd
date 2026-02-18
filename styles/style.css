@@ -61,7 +61,6 @@ body {
 
 .content {
   inline-size: 1140px;
-  margin: 0 auto;
   display: flex;
   align-items: flex-end;
   gap: 30px;
