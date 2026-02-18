@@ -24,3 +24,5 @@
 - Ограничение текста через `-webkit-line-clamp`
 - Prettier (автоформатирование)
 
+## Ссылка на проект
+https://github.com/Yulia-Pospelova/posmotri-v-okno-fd
