@@ -48,15 +48,14 @@ ol {
 body {
   margin: 0;
   background-color: #1b1919;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
 }
 
 .page {
   inline-size: 1200px;
-  min-block-size: 100vh;
   margin: 0 auto;
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 18px;
 }
 
 .content {
