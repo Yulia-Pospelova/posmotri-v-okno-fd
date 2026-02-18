@@ -55,9 +55,8 @@ body {
 
 .page {
   inline-size: 1200px;
-  margin: 0;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .content {
