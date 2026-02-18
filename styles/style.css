@@ -222,7 +222,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  align-self: stretch;А
+  align-self: stretch;
 }
 
 .title {
