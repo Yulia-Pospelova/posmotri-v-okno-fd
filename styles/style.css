@@ -45,8 +45,17 @@ ol {
   background-color: #d9d9d9;
 }
 
+html {
+  block-size: 100%;
+}
+
 body {
   margin: 0;
+  min-block-size: 100%;
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1b1919;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -55,21 +64,15 @@ body {
 
 .page {
   inline-size: 1200px;
-  min-block-size: 100vh;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 30px;
 }
 
 .content {
   inline-size: 1140px;
-  block-size: 100%;
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  margin-top: 0;
 }
 
 .result {
@@ -81,12 +84,14 @@ body {
 .result__video-container {
   inline-size: 711px;
   block-size: 386px;
+  position: relative;
 }
 
 .result__video {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -217,7 +222,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  justify-content: flex-start;
+  align-self: stretch;А
 }
 
 .title {
@@ -234,12 +239,11 @@ body {
 }
 
 .content__list-container {
-  inline-size: 399px;
+  inline-size: 100%;
+  max-inline-size: 399px;
   block-size: 298px;
   overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  position: relative;
 }
 
 .content__list {
