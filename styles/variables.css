@@ -1,0 +1,9 @@
+:root {
+  --f-main: "Fira Sans Condensed", sans-serif;
+  --f-title: "Oswald", Arial, sans-serif; 
+  --fs-main: 18px; 
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --c-bg: #1b1919;
+  --c-txt: #ffffff;
+}
